@@ -6,10 +6,9 @@
 // Битовое поле
 
 #include "tbitfield.h"
-#include "tset.h"
 
 TBitField::TBitField(int len)
-{ 
+{
 }
 
 TBitField::TBitField(const TBitField &bf) // конструктор копирования
@@ -21,11 +20,11 @@ TBitField::~TBitField()
 }
 
 int TBitField::GetMemIndex(const int n) const // индекс Мем для бита n
-{return (1);
+{
 }
 
 TELEM TBitField::GetMemMask(const int n) const // битовая маска для бита n
-{return (1);
+{
 }
 
 // доступ к битам битового поля
@@ -51,37 +50,37 @@ int TBitField::GetBit(const int n) const // получить значение б
 // битовые операции
 
 TBitField& TBitField::operator=(const TBitField &bf) // присваивание
-{return (*x);
+{
 }
 
 int TBitField::operator==(const TBitField &bf) const // сравнение
 {
-  return (0);
+  return 0;
 }
 
 int TBitField::operator!=(const TBitField &bf) const // сравнение
 {
-  return(0);
+  return 0;
 }
 
 TBitField TBitField::operator|(const TBitField &bf) // операция "или"
-{return(1);
+{
 }
 
 TBitField TBitField::operator&(const TBitField &bf) // операция "и"
-{return(1);
+{
 }
 
 TBitField TBitField::operator~(void) // отрицание
-{return(1);
+{
 }
 
 // ввод/вывод
 
 istream &operator>>(istream &istr, TBitField &bf) // ввод
-{return(istr);
+{
 }
 
 ostream &operator<<(ostream &ostr, const TBitField &bf) // вывод
-{return(ostr);
+{
 }
