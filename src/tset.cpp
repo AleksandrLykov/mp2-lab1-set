@@ -69,7 +69,7 @@ TSet TSet::operator-(const int Elem) // разность с элементом
 {return(1);
 }
 
-TSet TSet::operator*(const TSet &s) // пересечение
+TSet TSet::operator*(const TSet &s) // пересечение1
 {return (1);
 }
 
