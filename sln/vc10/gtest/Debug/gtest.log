@@ -1,17 +1,5 @@
-﻿Построение начато 02.10.2015 14:33:42.
-     1>Проект "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\gtest\gtest.vcxproj" в узле 3 (целевые объекты build).
-     1>InitializeBuildStatus:
-         Создание "Debug\gtest.unsuccessfulbuild", так как было задано "AlwaysCreate".
-       ClCompile:
-         Для всех выходных данных обновления не требуется.
-       Lib:
-         Для всех выходных данных обновления не требуется.
-         gtest.vcxproj -> C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\gtest.lib
-       FinalizeBuildStatus:
-         Файл "Debug\gtest.unsuccessfulbuild" удаляется.
-         Обращение к "Debug\gtest.lastbuildstate".
-     1>Построение проекта "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\gtest\gtest.vcxproj" завершено (целевые объекты build).
+﻿Построение начато 02.10.2015 16:24:54.
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:00.36
+Затраченное время: 00:00:00
