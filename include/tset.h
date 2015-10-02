@@ -15,7 +15,10 @@ class TSet
 private:
   int MaxPower;       // максимальная мощность множества
   TBitField BitField; // битовое поле для хранения характеристического вектора
-  TSet *x; //YBRAT!!!!!!!!!!!!
+<<<<<<< HEAD
+  TSet *x; //YBRAT!!!!!!!!!!!!!
+=======
+>>>>>>> origin/laba1
 public:
   TSet(int mp);
   TSet(const TSet &s);       // конструктор копирования
