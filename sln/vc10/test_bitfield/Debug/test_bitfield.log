@@ -1,7 +1,7 @@
-﻿Построение начато 02.10.2015 13:44:04.
+﻿Построение начато 02.10.2015 15:58:44.
      1>Проект "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\test_bitfield\test_bitfield.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Обращение к "Debug\test_bitfield.unsuccessfulbuild".
+         Создание "Debug\test_bitfield.unsuccessfulbuild", так как было задано "AlwaysCreate".
        ClCompile:
          Для всех выходных данных обновления не требуется.
        ManifestResourceCompile:
@@ -13,16 +13,13 @@
          Debug\test_tset.obj
          "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\gtest.lib"
          "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\bitfield.lib"
+     1>test_main.obj : warning LNK4099: "vc100.pdb" PDB не найден с "test_main.obj" или на "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\vc100.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>gtest.lib(gtest-all.obj) : warning LNK4099: "vc100.pdb" PDB не найден с "gtest.lib(gtest-all.obj)" или на "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\vc100.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\test_bitfield.exe.embed.manifest" /manifest Debug\test_bitfield.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\test_bitfield.exe.embed.manifest.res" Debug\test_bitfield_manifest.rc 
+         Для всех выходных данных обновления не требуется.
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug gtest.lib bitfield.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test_bitfield.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\test_bitfield.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\test_bitfield.lib" /MACHINE:X86 Debug\test_bitfield.exe.embed.manifest.res
-         Debug\test_main.obj
-         Debug\test_tbitfield.obj
-         Debug\test_tset.obj
-         "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\gtest.lib"
-         "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\bitfield.lib"
+         Для всех выходных данных обновления не требуется.
          test_bitfield.vcxproj -> C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe
        FinalizeBuildStatus:
          Файл "Debug\test_bitfield.unsuccessfulbuild" удаляется.
@@ -31,4 +28,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:01.27
+Затраченное время: 00:00:00.59

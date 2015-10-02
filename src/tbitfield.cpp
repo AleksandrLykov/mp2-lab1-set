@@ -9,15 +9,25 @@
 #include "tset.h"
 
 TBitField::TBitField(int len)
-{ 
+{MemLen = (len + 15) / 16;
+ pMem   = new TELEM[MemLen];
+if ( pMem != 0 )
+    for ( int i=0; i < MemLen; i++ ) 
+		pMem[i] = 0;
+BitLen = len;
 }
 
 TBitField::TBitField(const TBitField &bf) // конструктор копирования
 {
+	TELEM *pMem2;
+	pMem2 = new TELEM [bf.BitLen];
+	for (int i=0;i < bf.MemLen; i++)
+		pMem2[i] = bf.pMem[i];
 }
 
 TBitField::~TBitField()
 {
+	delete []pMem;
 }
 
 int TBitField::GetMemIndex(const int n) const // индекс Мем для бита n
@@ -32,7 +42,7 @@ TELEM TBitField::GetMemMask(const int n) const // битовая маска дл
 
 int TBitField::GetLength(void) const // получить длину (к-во битов)
 {
-  return 0;
+  return (BitLen);
 }
 
 void TBitField::SetBit(const int n) // установить бит
