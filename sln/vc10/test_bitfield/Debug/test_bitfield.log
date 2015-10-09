@@ -1,4 +1,4 @@
-﻿Построение начато 02.10.2015 18:39:52.
+﻿Построение начато 09.10.2015 20:08:21.
      1>Проект "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\test_bitfield\test_bitfield.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
          Создание "Debug\test_bitfield.unsuccessfulbuild", так как было задано "AlwaysCreate".
@@ -26,4 +26,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:00.57
+Затраченное время: 00:00:00.68
