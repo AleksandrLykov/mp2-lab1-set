@@ -1,20 +1,5 @@
-﻿Build started 11.10.2015 20:44:01.
-     1>Project "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\bitfield\bitfield.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\bitfield.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\tbitfield.cpp
-         tbitfield.cpp
-     1>c:\users\александр\desktop\laba\mp2-lab1-set\src\tbitfield.cpp(65): warning C4715: 'TBitField::GetBit' : not all control paths return a value
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\bitfield.lib" /NOLOGO Debug\tbitfield.obj
-         Debug\tset.obj
-         bitfield.vcxproj -> C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\Debug\bitfield.lib
-       FinalizeBuildStatus:
-         Deleting file "Debug\bitfield.unsuccessfulbuild".
-         Touching "Debug\bitfield.lastbuildstate".
-     1>Done Building Project "C:\Users\Александр\Desktop\laba\mp2-lab1-set\sln\vc10\bitfield\bitfield.vcxproj" (build target(s)).
+﻿Build started 16.10.2015 13:43:24.
 
 Build succeeded.
 
-Time Elapsed 00:00:00.42
+Time Elapsed 00:00:00.00
